@@ -1,6 +1,6 @@
-'Dish.name' : Spareribs
-'Dish.name' : Roastbeef
-'Dish.name' : Dry Aged Gourmet Steak
-'Dish.name' : Steak
-'Dish.name' : Stew
-'Dish.name' : Light Salad and a nice Steak
+'Spareribs.name' : Dish
+'Roastbeef.name' : Dish
+'Dry Aged Gourmet Steak.name' : Dish
+'Steak.name' : Dish
+'Stew.name' : Dish
+'Light Salad and a nice Steak.name' : Dish
