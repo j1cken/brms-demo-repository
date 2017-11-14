@@ -10,23 +10,23 @@ public class Season implements java.io.Serializable
    static final long serialVersionUID = 1L;
 
    @org.kie.api.definition.type.Label("Season")
-   private Season name;
+   private String name;
 
    public Season()
    {
    }
 
-   public org.kie.example.project1.Season getName()
+   public java.lang.String getName()
    {
       return this.name;
    }
 
-   public void setName(org.kie.example.project1.Season name)
+   public void setName(java.lang.String name)
    {
       this.name = name;
    }
 
-   public Season(org.kie.example.project1.Season name)
+   public Season(java.lang.String name)
    {
       this.name = name;
    }
