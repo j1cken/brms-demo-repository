@@ -12,7 +12,7 @@ public class Guests implements java.io.Serializable
    @org.kie.api.definition.type.Label("How many max number of guests?")
    private int max_num;
 
-   @org.kie.api.definition.type.Label(value = "How many guests")
+   @org.kie.api.definition.type.Label("How many min number of guests")
    private int min_num;
 
    public Guests()
