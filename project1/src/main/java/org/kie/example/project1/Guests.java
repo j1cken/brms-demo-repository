@@ -9,24 +9,14 @@ public class Guests implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   @org.kie.api.definition.type.Label(value = "How many guests")
-   private int min_number;
-
-   @org.kie.api.definition.type.Label(value = "How many max number of guests?")
+   @org.kie.api.definition.type.Label("How many max number of guests?")
    private int max_num;
+
+   @org.kie.api.definition.type.Label(value = "How many guests")
+   private int min_num;
 
    public Guests()
    {
-   }
-
-   public int getMin_number()
-   {
-      return this.min_number;
-   }
-
-   public void setMin_number(int min_number)
-   {
-      this.min_number = min_number;
    }
 
    public int getMax_num()
@@ -39,10 +29,20 @@ public class Guests implements java.io.Serializable
       this.max_num = max_num;
    }
 
-   public Guests(int min_number, int max_num)
+   public int getMin_num()
    {
-      this.min_number = min_number;
+      return this.min_num;
+   }
+
+   public void setMin_num(int min_num)
+   {
+      this.min_num = min_num;
+   }
+
+   public Guests(int max_num, int min_num)
+   {
       this.max_num = max_num;
+      this.min_num = min_num;
    }
 
 }
