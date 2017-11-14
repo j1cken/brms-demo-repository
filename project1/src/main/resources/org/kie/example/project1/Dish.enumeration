@@ -1,6 +1,1 @@
-'Spareribs.name' : Dish
-'Roastbeef.name' : Dish
-'Dry Aged Gourmet Steak.name' : Dish
-'Steak.name' : Dish
-'Stew.name' : Dish
-'Light Salad and a nice Steak.name' : Dish
+'Dish.name' : ["Spareribs","Roastbeef"]
