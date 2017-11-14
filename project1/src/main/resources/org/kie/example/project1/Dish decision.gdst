@@ -49,7 +49,7 @@
                 <compositeJunctionType>&amp;&amp;</compositeJunctionType>
                 <constraints>
                   <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                    <value>$min_number</value>
+                    <value>$min_num</value>
                     <operator>&gt;</operator>
                     <constraintValueType>7</constraintValueType>
                     <expression>
@@ -58,11 +58,11 @@
                     </expression>
                     <parameters/>
                     <factType>Guests</factType>
-                    <fieldName>min_number</fieldName>
+                    <fieldName>min_num</fieldName>
                     <fieldType>Integer</fieldType>
                   </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
                   <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                    <value>$max_number</value>
+                    <value>$max_num</value>
                     <operator>&lt;=</operator>
                     <constraintValueType>7</constraintValueType>
                     <expression>
@@ -102,10 +102,10 @@
           <width>-1</width>
           <header>Input</header>
           <constraintValueType>1</constraintValueType>
-          <factField>min_number</factField>
+          <factField>min_num</factField>
           <fieldType>Integer</fieldType>
           <parameters/>
-          <varName>$min_number</varName>
+          <varName>$min_num</varName>
           <factType>Guests</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
@@ -116,7 +116,7 @@
           <factField>max_num</factField>
           <fieldType>Integer</fieldType>
           <parameters/>
-          <varName>$max_number</varName>
+          <varName>$max_num</varName>
           <factType>Guests</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
@@ -290,7 +290,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Fall</valueString>
+        <valueString>Spring</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
