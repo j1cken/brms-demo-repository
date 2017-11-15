@@ -250,6 +250,52 @@
           <factType>Guests</factType>
           <isBound>false</isBound>
         </org.drools.workbench.models.datamodel.rule.ActionInsertFact>
+        <org.drools.workbench.models.datamodel.rule.ActionSetField>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>max_num</field>
+              <value>=in_number</value>
+              <nature>2</nature>
+              <type>Integer</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>min_num</field>
+              <value>=in_number</value>
+              <nature>2</nature>
+              <type>Integer</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>number</field>
+              <value>null</value>
+              <nature>3</nature>
+              <type>Integer</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+          </fieldValues>
+          <variable>g</variable>
+        </org.drools.workbench.models.datamodel.rule.ActionSetField>
+        <org.drools.workbench.models.datamodel.rule.ActionUpdateField>
+          <fieldValues>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>max_num</field>
+              <value>=in_number</value>
+              <nature>2</nature>
+              <type>Integer</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>min_num</field>
+              <value>=in_number</value>
+              <nature>2</nature>
+              <type>Integer</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+            <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+              <field>number</field>
+              <value>null</value>
+              <nature>3</nature>
+              <type>Integer</type>
+            </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
+          </fieldValues>
+          <variable>g</variable>
+        </org.drools.workbench.models.datamodel.rule.ActionUpdateField>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
