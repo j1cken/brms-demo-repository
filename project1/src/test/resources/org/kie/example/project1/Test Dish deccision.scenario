@@ -23,13 +23,30 @@
           <value>9</value>
           <nature>4</nature>
         </field-data>
+        <field-data>
+          <name>max_num</name>
+          <value>9</value>
+          <nature>4</nature>
+        </field-data>
+        <field-data>
+          <name>min_num</name>
+          <value>9</value>
+          <nature>4</nature>
+        </field-data>
       </fieldData>
       <name>g</name>
       <isModify>false</isModify>
     </fact-data>
     <fact-data>
       <type>Guests</type>
-      <fieldData/>
+      <fieldData>
+        <field-data>
+          <name>max_num</name>
+        </field-data>
+        <field-data>
+          <name>min_num</name>
+        </field-data>
+      </fieldData>
       <name>g</name>
       <isModify>true</isModify>
     </fact-data>
@@ -48,7 +65,7 @@
       <expectedFire>true</expectedFire>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2017-11-15 14:53:52.701 UTC</lastRunResult>
+  <lastRunResult>2017-11-15 15:02:08.538 UTC</lastRunResult>
   <rules>
     <string>Row 5 Dish decision</string>
   </rules>
