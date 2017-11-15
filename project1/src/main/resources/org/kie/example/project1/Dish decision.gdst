@@ -20,9 +20,9 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>when 
-  $inputg: Guests ( number is not null )
+  guests: Guests ( number is not null )
 then
-  insert( new Guests( $inputg.number, $inputg.number, null) )</text>
+  insert( new Guests( $guests.number, $guests.number, null) )</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FactPattern>
           <constraintList>
