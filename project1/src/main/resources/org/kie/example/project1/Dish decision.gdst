@@ -20,7 +20,7 @@
       <definition>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
           <text>when 
-  inputg: Guests ( number is not null )
+  $inputg: Guests ( number is not null )
 then
   insert( new Guests( $inputg.number, $inputg.number, null) )</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
