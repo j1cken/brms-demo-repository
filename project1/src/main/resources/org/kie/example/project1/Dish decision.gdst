@@ -77,6 +77,18 @@ then
                 <fieldName>max_num</fieldName>
                 <fieldType>Integer</fieldType>
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                <operator>== null</operator>
+                <constraintValueType>0</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>Guests</factType>
+                <fieldName>number</fieldName>
+                <fieldType>Integer</fieldType>
+              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
             </constraints>
           </constraintList>
           <factType>Guests</factType>
