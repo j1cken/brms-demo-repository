@@ -86,7 +86,7 @@
             </constraints>
           </constraintList>
           <factType>Guests</factType>
-          <boundName>g</boundName>
+          <boundName></boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -154,7 +154,7 @@
             </constraints>
           </constraintList>
           <factType>Guests</factType>
-          <boundName>ginput</boundName>
+          <boundName>g</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
@@ -199,13 +199,13 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>max_num</field>
-              <value>$ginput.number</value>
+              <value>$g.number</value>
               <nature>3</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>min_num</field>
-              <value>$ginput.number</value>
+              <value>$g.number</value>
               <nature>3</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
