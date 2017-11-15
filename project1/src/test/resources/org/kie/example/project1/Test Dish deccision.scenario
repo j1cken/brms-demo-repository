@@ -20,7 +20,7 @@
       <fieldData>
         <field-data>
           <name>number</name>
-          <value>4</value>
+          <value>9</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
@@ -28,11 +28,15 @@
       <isModify>false</isModify>
     </fact-data>
     <execution-trace>
-      <executionTimeResult>119</executionTimeResult>
+      <executionTimeResult>67</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
+    <expect-rule>
+      <ruleName>Row 5 Dish decision</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
   </fixtures>
-  <lastRunResult>2017-11-15 14:31:52.690 UTC</lastRunResult>
+  <lastRunResult>2017-11-15 14:33:22.791 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.kie.example.project1</packageName>
