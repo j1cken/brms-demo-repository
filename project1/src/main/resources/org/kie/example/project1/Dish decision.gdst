@@ -199,13 +199,13 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>max_num</field>
-              <value>$g.number</value>
+              <value>$g.getNumber()</value>
               <nature>3</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>min_num</field>
-              <value>$g.number</value>
+              <value>$g.getNumber()</value>
               <nature>3</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
