@@ -33,6 +33,12 @@
       <name>g</name>
       <isModify>true</isModify>
     </fact-data>
+    <fact-data>
+      <type>Season</type>
+      <fieldData/>
+      <name>s</name>
+      <isModify>true</isModify>
+    </fact-data>
     <execution-trace>
       <executionTimeResult>67</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
@@ -42,7 +48,7 @@
       <expectedFire>true</expectedFire>
     </expect-rule>
   </fixtures>
-  <lastRunResult>2017-11-15 14:33:22.791 UTC</lastRunResult>
+  <lastRunResult>2017-11-15 14:46:36.766 UTC</lastRunResult>
   <rules>
     <string>Row 5 Dish decision</string>
   </rules>
