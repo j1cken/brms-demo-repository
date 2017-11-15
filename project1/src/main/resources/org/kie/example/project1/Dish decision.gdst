@@ -42,27 +42,9 @@
             <parameters/>
           </window>
         </org.drools.workbench.models.datamodel.rule.FactPattern>
-        <org.drools.workbench.models.datamodel.rule.FactPattern>
-          <constraintList>
-            <constraints>
-              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                <value>$guestboundaries.min_num=$number &amp;&amp; $guestsboundaries.max_num=$number</value>
-                <constraintValueType>5</constraintValueType>
-                <expression>
-                  <parts/>
-                  <index>2147483647</index>
-                </expression>
-                <parameters/>
-                <fieldType></fieldType>
-              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-            </constraints>
-          </constraintList>
-          <factType>Guests</factType>
-          <isNegated>false</isNegated>
-          <window>
-            <parameters/>
-          </window>
-        </org.drools.workbench.models.datamodel.rule.FactPattern>
+        <org.drools.workbench.models.datamodel.rule.FreeFormLine>
+          <text>g: Guests ( min_num = $g.number, max_num = $g.number )</text>
+        </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FactPattern>
           <constraintList>
             <constraints>
