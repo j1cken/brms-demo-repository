@@ -43,7 +43,7 @@
           </window>
         </org.drools.workbench.models.datamodel.rule.FactPattern>
         <org.drools.workbench.models.datamodel.rule.FreeFormLine>
-          <text>g: Guests ( min_num = $g.number, max_num = $g.number )</text>
+          <text>$g: Guests ( min_num = $number, max_num = $number )</text>
         </org.drools.workbench.models.datamodel.rule.FreeFormLine>
         <org.drools.workbench.models.datamodel.rule.FactPattern>
           <constraintList>
@@ -77,7 +77,7 @@
             </constraints>
           </constraintList>
           <factType>Guests</factType>
-          <boundName>guestsboundaries</boundName>
+          <boundName>g</boundName>
           <isNegated>false</isNegated>
           <window>
             <parameters/>
