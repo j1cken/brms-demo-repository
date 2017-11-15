@@ -15,6 +15,8 @@ public class Guests implements java.io.Serializable
    @org.kie.api.definition.type.Label("How many min number of guests")
    private int min_num;
 
+   private int number;
+
    public Guests()
    {
    }
@@ -39,10 +41,21 @@ public class Guests implements java.io.Serializable
       this.min_num = min_num;
    }
 
-   public Guests(int max_num, int min_num)
+   public int getNumber()
+   {
+      return this.number;
+   }
+
+   public void setNumber(int number)
+   {
+      this.number = number;
+   }
+
+   public Guests(int max_num, int min_num, int number)
    {
       this.max_num = max_num;
       this.min_num = min_num;
+      this.number = number;
    }
 
 }
