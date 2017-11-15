@@ -151,6 +151,37 @@
                 <fieldName>number</fieldName>
                 <fieldType>Integer</fieldType>
               </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
+                <value></value>
+                <constraintValueType>0</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <fieldBinding>in_number</fieldBinding>
+                <fieldName>number</fieldName>
+                <fieldType>int</fieldType>
+                <expLeftSide>
+                  <binding>in_number</binding>
+                  <parts>
+                    <org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
+                      <next class="org.drools.workbench.models.datamodel.rule.ExpressionField">
+                        <prev class="org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact" reference="../.."/>
+                        <name>number</name>
+                        <classType>int</classType>
+                        <genericType>Integer</genericType>
+                      </next>
+                      <name>Guests</name>
+                      <classType>Guests</classType>
+                      <genericType>Guests</genericType>
+                      <factType>Guests</factType>
+                    </org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact>
+                    <org.drools.workbench.models.datamodel.rule.ExpressionField reference="../org.drools.workbench.models.datamodel.rule.ExpressionUnboundFact/next"/>
+                  </parts>
+                  <index>2147483647</index>
+                </expLeftSide>
+              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide>
             </constraints>
           </constraintList>
           <factType>Guests</factType>
@@ -199,13 +230,13 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>max_num</field>
-              <value>$g.getNumber()</value>
+              <value>$in_number</value>
               <nature>3</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>min_num</field>
-              <value>$g.getNumber()</value>
+              <value>$in_number</value>
               <nature>3</nature>
               <type>Integer</type>
             </org.drools.workbench.models.datamodel.rule.ActionFieldValue>
