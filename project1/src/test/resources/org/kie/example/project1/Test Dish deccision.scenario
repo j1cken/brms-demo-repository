@@ -27,6 +27,12 @@
       <name>g</name>
       <isModify>false</isModify>
     </fact-data>
+    <fact-data>
+      <type>Guests</type>
+      <fieldData/>
+      <name>g</name>
+      <isModify>true</isModify>
+    </fact-data>
     <execution-trace>
       <executionTimeResult>67</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
@@ -37,8 +43,10 @@
     </expect-rule>
   </fixtures>
   <lastRunResult>2017-11-15 14:33:22.791 UTC</lastRunResult>
-  <rules/>
-  <inclusive>false</inclusive>
+  <rules>
+    <string>Row 5 Dish decision</string>
+  </rules>
+  <inclusive>true</inclusive>
   <packageName>org.kie.example.project1</packageName>
   <imports>
     <imports/>
