@@ -64,7 +64,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
-  <lastRunResult>2017-11-16 12:07:45.705 UTC</lastRunResult>
+  <lastRunResult>2017-11-16 12:11:32.169 UTC</lastRunResult>
   <rules/>
   <inclusive>true</inclusive>
   <packageName>org.kie.example.project1</packageName>
