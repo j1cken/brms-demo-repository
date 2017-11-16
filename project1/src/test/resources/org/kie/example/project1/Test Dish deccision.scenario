@@ -20,27 +20,39 @@
       <fieldData>
         <field-data>
           <name>number</name>
-          <value>9</value>
+          <value>12</value>
           <nature>4</nature>
         </field-data>
       </fieldData>
       <name>g</name>
       <isModify>false</isModify>
     </fact-data>
-    <execution-trace/>
+    <execution-trace>
+      <executionTimeResult>35</executionTimeResult>
+      <numberOfRulesFired>2</numberOfRulesFired>
+    </execution-trace>
     <expect-rule>
       <ruleName>Row 1 Dish decision</ruleName>
+      <explanation>Rule [Row 1 Dish decision] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
     <expect-rule>
       <ruleName>Row 6 Dish decision</ruleName>
+      <explanation>Rule [Row 6 Dish decision] was activated 1 times.</explanation>
       <expectedFire>true</expectedFire>
+      <successResult>true</successResult>
+      <actualResult>1</actualResult>
     </expect-rule>
     <expect-fact>
       <fieldValues>
         <expect-field>
           <fieldName>name</fieldName>
           <expected>Stew</expected>
+          <actualResult>Roastbeef</actualResult>
+          <successResult>true</successResult>
+          <explanation>[Dish] field [name] was [Stew].</explanation>
           <operator>==</operator>
           <nature>1</nature>
         </expect-field>
@@ -49,6 +61,7 @@
       <anonymous>true</anonymous>
     </expect-fact>
   </fixtures>
+  <lastRunResult>2017-11-16 12:16:34.267 UTC</lastRunResult>
   <rules/>
   <inclusive>false</inclusive>
   <packageName>org.kie.example.project1</packageName>
