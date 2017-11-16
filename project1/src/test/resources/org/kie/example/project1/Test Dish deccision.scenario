@@ -43,12 +43,29 @@
       <executionTimeResult>67</executionTimeResult>
       <numberOfRulesFired>1</numberOfRulesFired>
     </execution-trace>
+    <expect-rule>
+      <ruleName>Row 1 Dish decision</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
+    <expect-rule>
+      <ruleName>Row 6 Dish decision</ruleName>
+      <expectedFire>true</expectedFire>
+    </expect-rule>
+    <expect-fact>
+      <fieldValues>
+        <expect-field>
+          <fieldName>name</fieldName>
+          <expected>Stew</expected>
+          <operator>==</operator>
+          <nature>1</nature>
+        </expect-field>
+      </fieldValues>
+      <name>Dish</name>
+      <anonymous>true</anonymous>
+    </expect-fact>
   </fixtures>
   <lastRunResult>2017-11-15 17:06:23.246 UTC</lastRunResult>
-  <rules>
-    <string>Row 1 Dish decision</string>
-    <string>Row 6 Dish decision</string>
-  </rules>
+  <rules/>
   <inclusive>true</inclusive>
   <packageName>org.kie.example.project1</packageName>
   <imports>
