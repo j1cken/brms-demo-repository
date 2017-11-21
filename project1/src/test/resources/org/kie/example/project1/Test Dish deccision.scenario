@@ -69,6 +69,6 @@
     <imports/>
   </imports>
   <ksessions>
-    <string>defaultKieSession</string>
+    <string>myKieSession</string>
   </ksessions>
 </scenario>
