@@ -219,7 +219,7 @@
       <boundName>result</boundName>
       <factField>name</factField>
       <type>String</type>
-      <isInsertLogical>false</isInsertLogical>
+      <isInsertLogical>true</isInsertLogical>
     </insert-fact-column52>
     <org.drools.workbench.models.guided.dtable.shared.model.BRLActionColumn>
       <hideColumn>false</hideColumn>
