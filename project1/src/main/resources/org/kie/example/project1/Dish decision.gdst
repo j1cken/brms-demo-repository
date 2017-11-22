@@ -226,7 +226,7 @@
       <width>-1</width>
       <header>set min and max number of guests</header>
       <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionInsertFact>
+        <org.drools.workbench.models.datamodel.rule.ActionInsertLogicalFact>
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldValue>
               <field>max_num</field>
@@ -249,7 +249,7 @@
           </fieldValues>
           <factType>Guests</factType>
           <isBound>false</isBound>
-        </org.drools.workbench.models.datamodel.rule.ActionInsertFact>
+        </org.drools.workbench.models.datamodel.rule.ActionInsertLogicalFact>
       </definition>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
